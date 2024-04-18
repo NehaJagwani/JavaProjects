@@ -9,6 +9,7 @@ public class Lab13 {
         System.out.println("ok2");
         System.out.println("ok3");
         System.out.println("ok4");
+        System.out.println("ok5");
     }
 
 }
