@@ -6,6 +6,7 @@ public class Lab13 {
         System.out.println("neha");
         System.out.println("ok");
         System.out.println("ok1");
+        System.out.println("ok2");
     }
 
 }
