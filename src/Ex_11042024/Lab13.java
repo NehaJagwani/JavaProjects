@@ -7,6 +7,7 @@ public class Lab13 {
         System.out.println("ok");
         System.out.println("ok1");
         System.out.println("ok2");
+        System.out.println("ok3");
     }
 
 }
