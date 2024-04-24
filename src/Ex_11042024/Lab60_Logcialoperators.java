@@ -1,5 +1,7 @@
 package Ex_11042024;
 
+//Logical operators are ||, &&, !
+
 public class Lab60_Logcialoperators {
     public static void main(String[] args) {
 
