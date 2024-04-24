@@ -2,7 +2,7 @@
 
 package Homework23rdApril;
 
-public class Lab79 {
+public class Lab79_PrimeNumbers {
     public static void main(String[] args) {
         int num = 1;
         boolean prime=true;
