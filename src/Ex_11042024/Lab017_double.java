@@ -1,5 +1,6 @@
 //for double data type, d is optional to be appended in the end.
 //even if you append d or not, the output will always be decimal.
+//The format specifier fpr double is %f.
 
 package Ex_11042024;
 
