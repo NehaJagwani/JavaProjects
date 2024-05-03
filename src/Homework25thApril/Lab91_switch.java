@@ -26,7 +26,7 @@ public class Lab91_switch {
                 break;
             case '*':
                 int num5=num1*num2;
-                System.out.printf("The multiplicaton of both the numbers is %d\n", num5);
+                System.out.printf("The multiplication of both the numbers is %d\n", num5);
                 break;
             case '/':
                 int num6=num1/num2;

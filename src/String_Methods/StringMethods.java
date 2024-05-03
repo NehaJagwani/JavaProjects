@@ -8,7 +8,7 @@ public class StringMethods {
        // char ch=s1.charAt(1);
         System.out.println(s1.charAt(2));
 
-        //substring
+        //substring: Return a sequence of characters from a string.
         String s2="Neha Jagwani";
        // String s3=s2.substring(1,4);
         System.out.println(s2.substring(0,12));
@@ -32,5 +32,12 @@ public class StringMethods {
         //subsequence: it returns the subsequence from the string as a CharSequence object.
         String s7="Neha Jagwani";
         System.out.println(s7.subSequence(0,9));
+
+        //concat: Append a string to the end of another string.
+        String s8="Neha";
+        String s9=" Jagwani";
+        System.out.println(s8.concat(s9));
+
+        System.out.println("neha". concat("jagwani"));
     }
 }

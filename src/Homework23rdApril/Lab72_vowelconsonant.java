@@ -21,4 +21,31 @@ public class Lab72_vowelconsonant {
         }
         sc.close();
     }
+
+    public static class PrimeNumbers_While {
+        public static void main(String[] args) {
+            int div = 0;
+            boolean prime;
+            System.out.println("Prime Numbers from 1 to 100 are: \n");
+            for (int n = 1; n <= 100; n++) {
+                prime=false;
+                div = 2;
+                while (div < n) {
+                    if (n % div == 0) {
+                        prime=false;
+                        break;
+                    } else {
+                        div++;
+                    }
+                }
+                if (div == n) {
+                    prime=true;
+                }
+                if(prime==true)
+                {
+                    System.out.printf("%d ",n);
+                }
+            }
+        }
+    }
 }

@@ -4,7 +4,7 @@
 package Ex_11042024;
 import java.util.Scanner;
 
-public class Lab81_switch {
+public class Lab81_switch_duplicatecase {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a day: ");

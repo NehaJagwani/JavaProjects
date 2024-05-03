@@ -5,7 +5,7 @@
 package Ex_11042024;
 
 
-public class Lab82_Switch {
+public class Lab82_Switch_multiplecasenos {
     public static void main(String[] args) {
     int num=002;
     switch(num)

@@ -9,7 +9,7 @@
 package Ex_11042024;
 import java.util.Scanner;
 
-public class Lab83_switch {
+public class Lab83_switch_2defaultcases {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number: ");
