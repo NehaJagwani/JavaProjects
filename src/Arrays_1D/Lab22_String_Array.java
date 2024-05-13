@@ -5,9 +5,13 @@ package Arrays_1D;
 
 public class Lab22_String_Array {
     public static void main(String[] args) {
-        String arr1[]={"neha", " ", null};
-        for (int i = 0; i < arr1.length ; i++) {
+        String arr1[] = {"I neha", " ", null};
+        System.out.println(arr1[0]);
+        System.out.println(arr1[1]);
+        System.out.println(arr1[2]);
+        for (int i = 0; i < arr1.length; i++) {
             System.out.print(arr1[i]);
         }
     }
 }
+

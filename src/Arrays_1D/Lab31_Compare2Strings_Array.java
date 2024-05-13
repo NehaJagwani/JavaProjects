@@ -10,6 +10,5 @@ public class Lab31_Compare2Strings_Array {
         for (int i = 0; i < str1.length; i++) {
             System.out.println(str1[i].equals(str2[i]));
         }
-
     }
 }

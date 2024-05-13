@@ -2,10 +2,10 @@ package Functions;
 
 public class Lab02_FunctionsNotReturn_ParameterPassed {
     public static void main(String[] args) {
-        sayHi(10);
+        sayHi("To Neha");
     }
 
-    private static void sayHi(float b) {
+    static void sayHi(String name) {
         System.out.println("Hi, I am Neha");
     }
 }

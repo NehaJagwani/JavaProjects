@@ -12,11 +12,5 @@ public class Lab15_Arrays_Strings {
 
         System.out.println(arr1==arr2);
         System.out.println(arr1.equals(arr2));
-
-        String str1 = new String("neha");
-        String str2=new String("neha");
-
-        System.out.println(str1==str2);
-        System.out.println(str1.equals(str2));
     }
 }
