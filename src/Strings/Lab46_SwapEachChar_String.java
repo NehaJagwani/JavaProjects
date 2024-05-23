@@ -10,7 +10,6 @@ public class Lab46_SwapEachChar_String {
             if(Character.isUpperCase(ch)==true)
             {
                 str1 = str1 + Character.toLowerCase(ch);
-
             }
             else if(Character.isLowerCase(ch)==true)
             {
@@ -20,7 +19,6 @@ public class Lab46_SwapEachChar_String {
             else
             {
                 str1=str1+ch;
-
             }
         }
         System.out.println(str1);

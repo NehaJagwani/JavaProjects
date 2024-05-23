@@ -8,7 +8,5 @@ public class Lab47_LongestWord_String_Incomplete {
         for (int i = 0; i < arr1.length; i++) {
             System.out.println(arr1[i].length());
         }
-
-
     }
 }
