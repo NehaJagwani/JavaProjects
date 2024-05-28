@@ -2,9 +2,7 @@
 
 package OOPS.Exceptions;
 
-import java.io.FileInputStream;
-
-public class Lab01_Exception {
+public class Lab01_Compiletimeexception_FileNotFound {
     public static void main(String[] args) {
       /*  try {
             FileInputStream fis = new FileInputStream("c:/abc.txt");
