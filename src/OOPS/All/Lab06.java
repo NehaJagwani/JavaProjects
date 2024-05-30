@@ -1,26 +1,43 @@
-/*Perform Lab03 using getter, setter methods*/
-
+/*Use of getter and setter methods by taking the input from the user*/
 
 package OOPS.All;
+import java.util.Scanner;
 
-public class Lab04 {
+public class Lab06 {
     public static void main(String[] args) {
-        FullTimeEmployee2 e2=new FullTimeEmployee2();
-        e2.setEmpId("A123");
-        e2.setEmpName("Neha Jagwani");
-        e2.setMonthlySalary(10000.5);
-        e2.setBonus(500);
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter Employee Id: ");
+        String empId=sc.next();
+        System.out.println();
+
+        System.out.print("Enter Employee Name: ");
+        String empName=sc.next();
+        System.out.println();
+
+        System.out.print("Enter Monthly Salary: ");
+        int monthlySalary = sc.nextInt();
+        System.out.println();
+
+        System.out.print("Enter Bonus: ");
+        double bonus=sc.nextDouble();
+        System.out.println();
+
+        FullTimeEmployee4 e2=new FullTimeEmployee4();
+        e2.setEmpId(empId);
+        e2.setEmpName(empName);
+        e2.setMonthlySalary(monthlySalary);
+        e2.setBonus(bonus);
         e2.displayInfo();
     }
 }
 
-class FullTimeEmployee2 extends Employee2
+class FullTimeEmployee4 extends Employee4
 {
     //Attributes
     double bonus;
 
     //Default constructor
-    FullTimeEmployee2()
+    FullTimeEmployee4()
     {
     }
 
@@ -45,19 +62,19 @@ class FullTimeEmployee2 extends Employee2
 }
 
 
-abstract class Employee2 {
+abstract class Employee4 {
     //Attributes
     private String empId;
     private String empName;
-    private double monthlySalary;
+    private int monthlySalary;
 
     //Default constructor
-    Employee2()
+    Employee4()
     {
 
     }
 
-     //Getter Setter methods
+    //Getter Setter methods
     public void setEmpId(String empId)
     {
         this.empId=empId;
@@ -76,7 +93,7 @@ abstract class Employee2 {
         return empName;
     }
 
-    public void setMonthlySalary(double monthlySalary)
+    public void setMonthlySalary(int monthlySalary)
     {
         this.monthlySalary=monthlySalary;
     }

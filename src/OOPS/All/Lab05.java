@@ -1,27 +1,39 @@
-/*Perform Lab03 using getter, setter methods*/
+/*Perform Lab03 using getter, setter methods + parameterized constructor*/
 
 
 package OOPS.All;
 
-public class Lab04 {
+public class Lab05 {
     public static void main(String[] args) {
-        FullTimeEmployee2 e2=new FullTimeEmployee2();
+        FullTimeEmployee3 e2=new FullTimeEmployee3();
         e2.setEmpId("A123");
         e2.setEmpName("Neha Jagwani");
         e2.setMonthlySalary(10000.5);
         e2.setBonus(500);
         e2.displayInfo();
+
+        FullTimeEmployee3 e3=new FullTimeEmployee3("A456", "Raghu Jagwani", 9333, 200);
+        e3.displayInfo();
     }
 }
 
-class FullTimeEmployee2 extends Employee2
+class FullTimeEmployee3 extends Employee3
 {
     //Attributes
     double bonus;
 
     //Default constructor
-    FullTimeEmployee2()
+    FullTimeEmployee3()
     {
+    }
+
+    //Parameterized constructor
+    FullTimeEmployee3(String empId, String empName, double monthlySalary, double bonus)
+    {
+        super(empId, empName, monthlySalary);
+        this.bonus=bonus;
+        /*this.setBonus(bonus);
+        this.getBonus();*/
     }
 
     //Getter Setter methods
@@ -45,19 +57,32 @@ class FullTimeEmployee2 extends Employee2
 }
 
 
-abstract class Employee2 {
+abstract class Employee3 {
     //Attributes
     private String empId;
     private String empName;
     private double monthlySalary;
 
     //Default constructor
-    Employee2()
+    Employee3()
     {
 
     }
 
-     //Getter Setter methods
+    Employee3(String empId, String empName, double monthlySalary)
+    {
+        this.empId=empId;
+        /*this.setEmpId(empId);
+        this.getEmpId();*/
+        this.empName=empName;
+        /*this.setEmpName(empName);
+        this.getEmpName();*/
+        this.monthlySalary=monthlySalary;
+        /*this.setMonthlySalary(monthlySalary);
+        this.getMonthlySalary();*/
+    }
+
+    //Getter Setter methods
     public void setEmpId(String empId)
     {
         this.empId=empId;
