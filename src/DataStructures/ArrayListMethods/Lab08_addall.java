@@ -1,7 +1,7 @@
 //addall will add all the elements from 1 ArrayList to another Arraylist
 //For removeall() and addall(), you have to create 2 objects of an ArrayList
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 //Clear() will clear all the elements from the list
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
 import java.util.ArrayList;
 

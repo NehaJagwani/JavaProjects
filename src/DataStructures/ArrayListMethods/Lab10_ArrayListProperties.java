@@ -8,7 +8,7 @@ Properties of an ArrayList:
 6. ArrayList are non-synchronized.
  */
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
 public class Lab10_ArrayListProperties {
     public static void main(String[] args) {

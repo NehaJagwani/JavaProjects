@@ -1,6 +1,6 @@
 //Through get(), you can get a specific element from an arraylist.
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
 import java.util.ArrayList;
 

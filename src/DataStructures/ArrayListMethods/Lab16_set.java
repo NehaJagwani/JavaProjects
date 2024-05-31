@@ -1,7 +1,7 @@
 /*set acts like a replace. It's syntax is set(index, object element). It will replace the element at the
 specified index with the element specified inside set().*/
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
 import java.util.ArrayList;
 

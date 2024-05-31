@@ -1,6 +1,6 @@
 //contains() return a boolean value.
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
 import java.util.ArrayList;
 

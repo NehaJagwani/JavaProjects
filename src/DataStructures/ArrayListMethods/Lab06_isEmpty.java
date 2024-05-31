@@ -1,8 +1,7 @@
 //isEmpty will check if the list is empty/not and accordingly will return a boolean valur of true/false.
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Lab06_isEmpty {

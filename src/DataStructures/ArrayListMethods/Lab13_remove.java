@@ -1,7 +1,7 @@
 /*If you have strings with the same name, when you perform remove(name), it will always remove the first
 occurrence of the name*/
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
 import java.util.ArrayList;
 

@@ -1,8 +1,7 @@
 //You can find the number of elements in the arraylist using size()
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Lab03_Arraylist_size {

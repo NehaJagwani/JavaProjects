@@ -1,7 +1,7 @@
 //If the data belongs to different data types, then to print using foreach each loop, use the word Object.
 
 
-package DataStructures.ArrayList;
+package DataStructures.ArrayListMethods;
 import java.util.ArrayList;
 
 public class Lab09_foreach {
