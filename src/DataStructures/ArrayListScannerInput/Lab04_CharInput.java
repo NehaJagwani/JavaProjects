@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Lab04_CharInput_incomplete {
+public class Lab04_CharInput {
     public static void main(String[] args) {
 
         ArrayList<Character> al4 = new ArrayList();

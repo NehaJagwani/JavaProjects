@@ -10,10 +10,17 @@ public class Lab02_DoubleInput {
         ArrayList<Double> al2=new ArrayList();
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the elements in double: ");
-        while(sc.hasNextDouble())
+
+        //can do as below also
+        /*while(sc.hasNextDouble())
         {
             double d1=sc.nextDouble();
             al2.add(d1);
+        }*/
+
+        while(sc.hasNextDouble())
+        {
+            al2.add(sc.nextDouble());
         }
 
         System.out.println("The elements are: ");

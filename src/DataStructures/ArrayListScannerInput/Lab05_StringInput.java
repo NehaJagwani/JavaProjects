@@ -15,7 +15,7 @@ public class Lab05_StringInput {
         {
             String input=sc.next();
             if(input.equalsIgnoreCase("exit"))
-
+            {
                 break;
             }
             al5.add(input);

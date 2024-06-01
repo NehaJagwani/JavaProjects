@@ -11,10 +11,17 @@ public class Lab03_FloatInput {
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter the Float values: ");
+
+        /*can do as below also
         while(sc.hasNextFloat())
         {
             float f1=sc.nextFloat();
             al3.add(f1);
+        }*/
+
+        while(sc.hasNextFloat())
+        {
+            al3.add(sc.nextFloat());
         }
 
         System.out.println("The Float elements are: ");

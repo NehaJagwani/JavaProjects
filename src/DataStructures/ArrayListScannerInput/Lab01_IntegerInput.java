@@ -11,10 +11,17 @@ public class Lab01_IntegerInput {
         ArrayList<Integer> al1=new ArrayList();
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the integer elements to be added to the ArrayList: ");
-        while(sc.hasNextInt())
+
+        //Can do below also
+       /* while(sc.hasNextInt())
         {
             int num1=sc.nextInt();
             al1.add(num1);
+        }*/
+
+        while(sc.hasNextInt())
+        {
+            al1.add(sc.nextInt());
         }
 
         System.out.println("The elements in the ArrayList are: ");
