@@ -16,17 +16,13 @@ import java.util.Map;
 
 public class Lab08_printHashMap {
     public static void main(String[] args) {
-        HashMap h9=new HashMap();
+        HashMap<Integer, String> h9=new HashMap();
         h9.put(101, "Neha");
         h9.put(202, "Kyra");
         //Print using the SOP statement
        // System.out.println(h9);
 
-        //Print using the Set interface,it will print all the items in a single line
-       /* Set set=h9.entrySet();
-        System.out.println(set);*/
-
-        //Print using the Iterator, it will print items in a different line
+        //Print using Set and Iterator, it will print items in a different line
         Set set=h9.entrySet();
         Iterator itr=set.iterator();
         while(itr.hasNext())
@@ -34,7 +30,15 @@ public class Lab08_printHashMap {
             System.out.println(itr.next());
         }
 
-        //Print using the Map interface
+        //Print using the for each loop. To print using the foreach loop for Map, you need to use the Map interface.
+        //This is used when you want to print customized characters between key and value.
+        for(Map.Entry<Integer, String> element: h9.entrySet())
+        {
+            System.out.println(element.getKey()+" : "+element.getValue());
+        }
+
+        //Alternate way to print using the Map interface.
+        //This is used when you want to print customized characters between key and value.
         Set set1=h9.entrySet();
         Iterator itr1=set1.iterator();
         while(itr1.hasNext())
