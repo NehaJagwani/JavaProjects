@@ -19,7 +19,7 @@ class ATB
 
     static
     {
-        System.out.println("I will be executed when the class is created");
+        System.out.println("I will be executed only once when the class is created");
     }
     {
         System.out.println("I am IIB");

@@ -17,10 +17,10 @@ class Person1
     /*String name="Neha";
    static void m1()
     {
-        System.out.println("I am Neha"+" "+this.name);
+        System.out.println("My name is"+" "+name);
     }*/
 
-    //A static variable can be accessed from a non static method, can also use 'this.name' below
+    //A static variable can be accessed from a non-static method, can also use 'this.name' below
     static String name="Neha";
     void display()
     {
