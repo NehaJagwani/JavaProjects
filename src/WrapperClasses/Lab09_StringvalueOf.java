@@ -1,6 +1,7 @@
 /*
 String.valueOf() can be used for integer, char, double, float, boolean, character, string.
 When you are doing String.valueOf(string), the string argument can be "123" or "Neha".
+This is a static method meaning it can be called directly via class name
 */
 
 package WrapperClasses;
